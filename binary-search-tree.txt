@@ -1,0 +1,23 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+Root x=6
+
+                       6
+                     /  \
+                    5    7
+                   /      \
+                  1        8
+                 / \        \
+                0   3        9
+                   / \
+                  2   4
+
+Step 1: For 7 > 6, place 7 to the right of the root.
+Step 2: For 5 < 6, place 5 to the left of the root.
+Step 3: For 1 < 6, 1 is added to the left of the root.
+Step 4: For 8 > 6, 8 is added to the right of the root.
+Step 5: For 3 < 6, 3 are added to the left of the root.
+Step 6: For 0 < 6, 0 is added to the left of the root.
+Step 7: For 9 > 6, 9 is added to the right of the root.
+Step 8: For 4 < 6, 4 is added to the left of the root.                        
+Step 9: For 2 < 6, 2 are added to the left of the root.
